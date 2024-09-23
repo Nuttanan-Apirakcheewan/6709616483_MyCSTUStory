@@ -1,4 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap');
+
+/*----------------------------------NAV BAR-------------------------------------*/
+
+nav
+{
+    background-color: rgb(3, 62, 156);
+    padding-bottom: px;
+    width: 100%;
+    left: 0;
+    margin-top: -23.1px;
+    position: fixed;
+
+}
+
+nav ul 
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-left: -66px;
+}
+
+nav ul li 
+{
+    margin: 0 30px;
+}
+
+nav ul li a 
+{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover 
+{
+    background-color: #df7e00;
+    border-radius: 5px;
+}
+/*---------------------------------HOMEPAGE-------------------------------------*/
 .header
 {
     font-weight: bold;
