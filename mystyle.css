@@ -8,13 +8,12 @@
     color: rgb(0, 0, 0);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(255, 255, 255);
+    margin-top: -10px;
     font-family: Pridi;    
 }
 body
 {
-    background-image: url("resources/HD-wallpaper-wall-board-lights-black-background-black-background.jpg");
-    margin-top: 90px;
-
+    background-image: url("resources/HD-wallpaper-wall-board-lights-black-background-black-background.jpg")
 }
 #first
 {
@@ -45,8 +44,7 @@ body
     border-radius: 7px;
     padding: 5px;
     width: 500px;
-    margin: auto;
-    margin-top: -30px;
+    margin: auto ;
 }
 
 .para1
@@ -54,7 +52,7 @@ body
     text-align: center;
     color: rgb(200, 230, 255);
     padding: 20px;
-    margin-top: 280px;
+    margin-top: 290px;
 }
 
 .para2
@@ -63,6 +61,7 @@ body
     text-align: center;
     color: rgb(200, 230, 255);
     padding: 20px;
+    margin-top: 2px;
 }
 
 .content-wrapper 
