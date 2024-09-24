@@ -5,7 +5,7 @@
 nav
 {
     background-color: rgb(1, 31, 78);
-
+    padding-bottom: 7px;
     width: 100%;
     top: 0;
     left: 0;
@@ -38,6 +38,7 @@ nav ul li a
 nav ul li a:hover 
 {
     background-color: #df7e00;
+    padding-bottom: 7px;
     border-radius: 5px;
 }
 /*---------------------------------HOMEPAGE-------------------------------------*/
@@ -197,18 +198,6 @@ blockquote
 }
 /*--------------------Journey--------------------------*/
 
-.timeline .mighty p
-{
-    margin-top: 25px;
-    color: aliceblue;
-    font-size: 190%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 450px;
-
-}
-
 .timeline img
 {
     width: 500px;
@@ -221,6 +210,12 @@ blockquote
     margin-bottom: 30px;
     display: flex;
 
+}
+article .timeline p span
+{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 180px;
 }
 .timeline
 {
@@ -260,10 +255,16 @@ article .timeline .circle
     display: flex;
 }
 
+.year1 , .year2
+{
+    margin:0%;
+    margin-top: -1950px;
+}
+
 article .timeline .line 
 {
     width: 3px;
-    height: 600px; 
+    height: 400px; 
     background-color:#ff8a04;
     margin: 0 47px;
 }
@@ -279,7 +280,8 @@ article .timeline .line
    
 }
 
-.timeline ,.year1 img , .year1.para,.year2 img, .year2 .para p
+.timeline ,.year1 img , .year1 .para,.year2 img, .year2 .para p,
+.year3 img , .year3 .para , .year4 img , .year4 .para
 {
     justify-content: center;
     justify-content: space-between;
@@ -291,15 +293,21 @@ article .timeline .line
     font-size: 20px;
     float:left;
     display: flex;
-    margin-top: -400px;
+    margin-top: -300px;
     margin-left: 55%;
     text-align: left;
-    background-color: #a76919;
+    background-color: #19a78f;
     border: 2px solid black;
     border-radius: 50px;
     padding: 10px;
     width: 40%;
     
+}
+
+.year2
+{
+    margin:0%;
+    margin-top: 100px;
 }
 
 .year2 img
@@ -308,7 +316,6 @@ article .timeline .line
     float:right;
     margin-right: 10%;
     border: 2px solid #ffffff;
-
     display: flex;
     border-radius: 10px;
     margin-top: 7px;
@@ -321,7 +328,7 @@ article .timeline .line
     font-size: 20px;
     float:left;
     display: flex;
-    margin-top: 190px;
+    margin-top: 100px;
     margin-left: 18%;
     text-align: left;
     background-color: #1c88a3;
@@ -329,6 +336,60 @@ article .timeline .line
     border-radius: 50px;
     padding: 20px;
     width: 34%;
+}
+
+.year3 img
+{
+    width: 30%;
+    float: inline-start;
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40%;
+    justify-content: center;
+}
+
+.year3 .para p
+{
+    color: #ddd;
+    font-size: 20px;
+    float:left;
+    display: flex;
+    margin-left: 37%;
+    text-align: center;
+    background-color: #075dad;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 20px;
+    width: 34%;
+}
+
+.year4 img
+{
+    width: 30%;
+    float:left;
+    margin-left: 19%;
+    margin-top: 80px;
+    border: 2px solid #ffffff;
+    display: flex;
+    border-radius: 10px;
+}
+
+.year4 .para p
+{
+    color: #ddd;
+    font-size: 20px;
+    align-items: end;
+    float:inline-start;
+    display: flex;
+    text-align: left;
+    margin-left: 120px;
+    margin-top: 180px;
+    background-color: #19a78f;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px;
+    width: 30%;
 }
 
 
