@@ -4,13 +4,12 @@
 
 nav
 {
-    background-color: rgb(3, 62, 156);
-    padding-bottom: px;
-    width: 100%;
-    left: 0;
-    margin-top: -23.1px;
-    position: fixed;
+    background-color: rgb(1, 31, 78);
 
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
 }
 
 nav ul 
@@ -196,3 +195,75 @@ blockquote
 {
     color: #df7e00;
 }
+/*--------------------Journey--------------------------*/
+
+.mighty
+{
+    margin-top: 20px;
+    color: aliceblue;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+.timeline
+{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 10px;
+    font-family: Pridi;
+}
+
+article .timeline .circle 
+{
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 50%;
+    width: 10px; 
+    height: 10px; 
+    border: 3px solid #ff8a04;
+    justify-content: center;
+    align-items: center;
+    color: #ff8a04;
+    font-size: 30px; 
+    font-family: Pridi;
+    display: flex;
+}
+
+article .timeline .line 
+{
+    width: 3px;
+    height: 400px; 
+    background-color:#ff8a04;
+    margin: 0 25px;
+}
+
+.year1 img
+{
+    width: 250px;
+
+    display: flex;
+    margin-top: -460px;
+    margin-left: 500px;
+    border: 2px solid #ffffff;
+   
+}
+
+.year1 .para
+{
+    color: #ddd;
+    font-size: 20px;
+    float: inline-start;
+    display: flex;
+    margin-top: -220px;
+    margin-left: 900px;
+    text-align: left;
+    background-color: #815214;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px;
+    
+}
+
