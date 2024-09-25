@@ -207,8 +207,7 @@ body
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(0, 0, 0);
     font-style: italic;
-    
-
+    margin-bottom: 100px;
 }
 
 .background-table
@@ -245,19 +244,6 @@ dd
     font-style: italic;
 }
 
-.blockquote
-{
-    font-size: 20px;
-    margin-top: 70px;
-    color: rgb(200, 230, 255);
-    text-align: center;
-    margin-bottom: 100px;
-}
-
-blockquote
-{
-    color: #df7e00;
-}
 /*----------------------------------------Journey----------------------------------------------*/
 
 .timeline img
