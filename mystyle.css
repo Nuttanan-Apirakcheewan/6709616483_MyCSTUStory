@@ -454,6 +454,54 @@ article .timeline .line
     width: 30%;
     margin-bottom: 176px;
 }
+/*----------------------------------------FUTURE-------------------------------------------------*/
 
+.right-arrow {
+    width: 0px;
+    height: 0px;
+    margin-top: 610px;
+    margin-left: 200px;
+    float: inline-start;
+    display: flex;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 90px solid rgb(235, 137, 8);
+}
+.right-arrow ,.box1
+{
+    justify-content: space-between;
+    justify-content: center;
+}
 
+.box1
+{
+    padding: 100px;
+    background-color: #1962a7;
+    width: 20%;
+    height: 600px;
+    margin-top: 200px;
+    float: inline-start;
+    display: flex;
+    margin-left: 120px;
+    opacity: 80%;
+    border: 3px solid white;
+    border-radius: 14px;
+    margin-bottom: 100px;
+}
+.box1 p 
+{
+    display: flex;
+    float: inline-start;
+    align-items: center;
+    justify-content: center;
+    margin-top: -40px;
+}
 
+.box1 img
+{
+    width: 300px;
+    height: 260px;
+    float: inline-start;
+    display: flex;
+    border-radius: 14px;
+}
